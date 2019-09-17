@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72304432331128900FAD8C2 /* APIWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72304422331128900FAD8C2 /* APIWeatherManager.swift */; };
 		A775218F2327D95A005DFD2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A775218E2327D95A005DFD2F /* AppDelegate.swift */; };
 		A77521912327D95A005DFD2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77521902327D95A005DFD2F /* ViewController.swift */; };
 		A77521942327D95A005DFD2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77521922327D95A005DFD2F /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72304422331128900FAD8C2 /* APIWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWeatherManager.swift; sourceTree = "<group>"; };
 		A775218B2327D95A005DFD2F /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A775218E2327D95A005DFD2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77521902327D95A005DFD2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				A7FACC7A232EA155008D6224 /* APIManager.swift */,
+				A72304422331128900FAD8C2 /* APIWeatherManager.swift */,
 				A775218E2327D95A005DFD2F /* AppDelegate.swift */,
 				A7FACC7C232EA9B9008D6224 /* ErrorManager.swift */,
 				A77521902327D95A005DFD2F /* ViewController.swift */,
@@ -159,6 +162,7 @@
 				A77521912327D95A005DFD2F /* ViewController.swift in Sources */,
 				A77521A12327F82B005DFD2F /* CurrentWeather.swift in Sources */,
 				A7FACC7B232EA155008D6224 /* APIManager.swift in Sources */,
+				A72304432331128900FAD8C2 /* APIWeatherManager.swift in Sources */,
 				A775218F2327D95A005DFD2F /* AppDelegate.swift in Sources */,
 				A77521A32327F9D4005DFD2F /* WeatherIconManager.swift in Sources */,
 			);
