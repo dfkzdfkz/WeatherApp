@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var pressureLabel: UILabel!
     @IBOutlet weak var humidityLabel: UILabel!
     @IBOutlet weak var temperatureLabel: UILabel!
-    @IBOutlet weak var appearentTemperatureLabel: UILabel!
+    @IBOutlet weak var apparentTemperatureLabel: UILabel!
     @IBOutlet weak var refreshButton: UIButton!
     
     @IBAction func refreshButtonTapped(_ sender: UIButton) {
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let icon = WeatherIconManager.Rain.image
-        let currentWeather = CurrentWeather(temperature: 10.0, appearentTemperature: 5.0, humidity: 30, pressure: 750, icon: icon)
+        let currentWeather = CurrentWeather(temperature: 10.0, apparentTemperature: 5.0, humidity: 30, pressure: 750, icon: icon)
         updateUIWith(currentWeather: currentWeather)
     }
     
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         self.imageView.image = currentWeather.icon
         self.pressureLabel.text = currentWeather.pressureString
         self.temperatureLabel.text = currentWeather.temperatureString
-        self.appearentTemperatureLabel.text = currentWeather.appearentTemperatureString
+        self.apparentTemperatureLabel.text = currentWeather.appearentTemperatureString
         self.humidityLabel.text = currentWeather.humidityString
     }
     
